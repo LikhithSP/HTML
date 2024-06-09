@@ -81,3 +81,50 @@ body{
     text-align: left;
     border:0;
 }
+.box input[type='submit']{
+    border: none;
+    outline: none;
+    color:#fff;
+    background-color: #1a73e8;
+    padding: 0.625rem 1.25rem;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    font-weight: bold;
+    float: right;
+
+}
+.box input[type='submit']:hover{
+    background-color: #287ae6;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label,
+.box .inputBox input:not([value='']) ~ label{
+    top: -0.5rem;
+    left: 10px;
+    color:#1a73e8;
+    font-size: .75rem;
+    background-color: #fff;
+    height: 10px;
+    padding: 0 5px;
+}
+.box .inputBox input:focus{
+    outline: none;
+    border: 2px solid #1a73e8;
+}
+.para p{
+    text-align: left;
+    margin-top: 40px;
+    font-size: 13px;
+    left: 20px;
+    color: #686262;
+}
+.para a{
+    text-decoration: none;
+    color:rgb(26,115,232);
+    font-weight:550;
+    font-size: 14px;
+    cursor: pointer;
+}
